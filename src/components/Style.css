@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: #fceec8;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+.left-content,
+.right-content {
+    flex-basis: 50%;
+}
+
+.left-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap: 2rem;
+}
+
+.card {
+    width: 300px;
+    background-color: #9edef9;
+    background-color: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 0 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.right-content {
+    width: 30%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 100px;
+    right: 1px;
+    margin-right: 70px;
+    top: 50px;
+}
+
+.base-start {
+    margin: 10px;
+}
+
+.abilities {
+    margin-top: 5px;
+}
+
+.card-info {
+    border: 2px solid black;
+    width: full;
+    padding: 30px;
+    border-radius: 12px;
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-around;
+}
+.row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.btn-group {
+    display: flex;
+}
+.btn-group button {
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+
+.gabungan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 60px;
+}
+.group {
+    font-weight: 300;
+}
